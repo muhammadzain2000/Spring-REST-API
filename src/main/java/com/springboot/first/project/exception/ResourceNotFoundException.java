@@ -9,7 +9,10 @@ public class ResourceNotFoundException extends RuntimeException{
 	/**
 	 * 
 	 */
+	
+	//this is default serial id which is required
 	private static final long serialVersionUID = 1L;
+	
 	private String resourceName;
 	private String fieldName;
 	private Object fieldValue;
